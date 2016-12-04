@@ -8,8 +8,12 @@ Low Level Linear Algebra Library for OpenCL
  * library may be useful as alternative backend for pure rust alebra libraries
 
 ## example
-
+From [`examples/simple.rs`]:
 ```rust
+extern crate ocl_algebra;
+
+use ocl_algebra::*;
+
 func main() {
     // init library
     let mut c = new();
